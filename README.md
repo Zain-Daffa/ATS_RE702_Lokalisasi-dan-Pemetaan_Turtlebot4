@@ -7,7 +7,7 @@
 
 ---
 
-## 📖 Ringkasan Proyek
+## Ringkasan Proyek
 
 Proyek ini merupakan implementasi sistem navigasi dan lokalisasi untuk robot TurtleBot4 yang dikembangkan sebagai bagian dari evaluasi Ujian Tengah Semester mata kuliah RE702.
 
@@ -19,7 +19,7 @@ Proyek ini merupakan implementasi sistem navigasi dan lokalisasi untuk robot Tur
 
 ---
 
-## 🛠️ Prasyarat dan Konfigurasi Awal
+## Konfigurasi Awal
 
 ### Membuat Peta Lingkungan
 
@@ -45,7 +45,7 @@ ssh ubuntu@192.168.185.3
 
 ---
 
-## 🚀 Panduan Eksekusi Sistem
+## Panduan Eksekusi Sistem
 
 ### Langkah 1: Menjalankan Localization
 
@@ -74,7 +74,7 @@ ros2 launch turtlebot4_viz view_navigation.launch.py
 
 ---
 
-## 📦 Instalasi Package
+## Instalasi Package
 
 ### Membuat ROS2 Workspace
 ```bash
@@ -107,7 +107,7 @@ source install/setup.bash
 
 ---
 
-## ▶️ Menjalankan Aplikasi
+## Menjalankan Node Utama
 
 Setelah semua setup selesai, eksekusi node utama dengan perintah:
 ```bash
@@ -120,9 +120,6 @@ Node ini akan mengendalikan pergerakan robot menuju titik tujuan yang telah dite
 
 ## 🎬 Video Demo
 
-*(Tambahkan URL video demonstrasi proyek di sini)*
-
-**Contoh:**
 - Link YouTube: `https://youtu.be/b6Jc3NDo4qI?si=Upo1l2yUh0Ste9Kz`
 
 ---
