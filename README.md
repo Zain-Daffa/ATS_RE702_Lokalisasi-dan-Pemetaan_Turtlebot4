@@ -120,14 +120,7 @@ Node ini akan mengendalikan pergerakan robot menuju titik tujuan yang telah dite
 
 ## 🎬 Video Demo
 
-- Link YouTube: `https://youtu.be/b6Jc3NDo4qI?si=Upo1l2yUh0Ste9Kz`
+- Link YouTube: https://youtu.be/b6Jc3NDo4qI?si=Upo1l2yUh0Ste9Kz
 
 ---
 
-## 📚 Referensi
-
-- [TurtleBot4 Official Documentation](https://turtlebot.github.io/turtlebot4-user-manual/)
-- [ROS2 Navigation Stack (Nav2)](https://navigation.ros.org/)
-- [AMCL Localization Package](https://navigation.ros.org/configuration/packages/configuring-amcl.html)
-
----
