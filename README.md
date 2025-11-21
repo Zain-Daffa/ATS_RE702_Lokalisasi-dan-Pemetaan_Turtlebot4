@@ -2,7 +2,7 @@
 
 **Proyek UTS Mata Kuliah Lokalisasi dan Pemetaan (RE702)**  
 **Nama:** Muhammad Zainul Daffa  
-**NIM:** 422222201049  
+**NIM:** 4222201049  
 **Kelas:** RE 7B Pagi
 
 ---
