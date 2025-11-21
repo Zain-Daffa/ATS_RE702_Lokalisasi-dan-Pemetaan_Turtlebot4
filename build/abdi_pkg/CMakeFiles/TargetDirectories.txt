@@ -1,0 +1,10 @@
+/home/ubuntu/abdi/build/abdi_pkg/CMakeFiles/uninstall.dir
+/home/ubuntu/abdi/build/abdi_pkg/CMakeFiles/abdi_pkg_uninstall.dir
+/home/ubuntu/abdi/build/abdi_pkg/CMakeFiles/abdinode.dir
+/home/ubuntu/abdi/build/abdi_pkg/CMakeFiles/test.dir
+/home/ubuntu/abdi/build/abdi_pkg/CMakeFiles/edit_cache.dir
+/home/ubuntu/abdi/build/abdi_pkg/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/abdi/build/abdi_pkg/CMakeFiles/list_install_components.dir
+/home/ubuntu/abdi/build/abdi_pkg/CMakeFiles/install.dir
+/home/ubuntu/abdi/build/abdi_pkg/CMakeFiles/install/local.dir
+/home/ubuntu/abdi/build/abdi_pkg/CMakeFiles/install/strip.dir
