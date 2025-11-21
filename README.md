@@ -1,88 +1,136 @@
-# Autonomous and Localization TurtleBot4  
-Lokalisasi dan Pemetaan — RE702 Midterm Exam  
-422222201049 — Muhammad Zainul Daffa (RE 7B Pagi)
+# TurtleBot4 - Sistem Navigasi Otonom & Lokalisasi
 
-## Deskripsi
-Repositori ini digunakan untuk memenuhi Ujian Tengah Semester mata kuliah Lokalisasi dan Pemetaan (RE702).  
-Paket ROS2 di dalamnya menjalankan:
-
-- Localization TurtleBot4  
-- Navigation (Nav2)  
-- Pergerakan robot menuju titik tujuan  
-- Aktivasi buzzer sesuai instruksi asesmen  
+**Proyek UTS Mata Kuliah Lokalisasi dan Pemetaan (RE702)**  
+**Nama:** Muhammad Zainul Daffa  
+**NIM:** 422222201049  
+**Kelas:** RE 7B Pagi
 
 ---
 
-## Persiapan Awal
+## 📖 Ringkasan Proyek
 
-### 1. Pembuatan Peta
-Pastikan Anda sudah membuat map untuk lingkungan pengujian.  
-Simpan peta pada direktori:
+Proyek ini merupakan implementasi sistem navigasi dan lokalisasi untuk robot TurtleBot4 yang dikembangkan sebagai bagian dari evaluasi Ujian Tengah Semester mata kuliah RE702.
 
+**Komponen Sistem:**
+- Modul lokalisasi robot dengan AMCL (Adaptive Monte Carlo Localization)
+- Stack navigasi Nav2 untuk path planning
+- Kontrol pergerakan robot ke koordinat target
+- Sistem buzzer terintegrasi sesuai requirement ujian
+
+---
+
+## 🛠️ Prasyarat dan Konfigurasi Awal
+
+### Membuat Peta Lingkungan
+
+Langkah pertama adalah membuat map dari area pengujian yang akan digunakan.
+
+**Direktori penyimpanan:**
+```
 maps/
+```
 
+**Panduan lengkap:**  
+Ikuti tutorial resmi TurtleBot4 untuk pembuatan peta:  
+[https://turtlebot.github.io/turtlebot4-user-manual/tutorials/generate_map.html](https://turtlebot.github.io/turtlebot4-user-manual/tutorials/generate_map.html)
 
-Panduan pembuatan peta resmi:  
-https://turtlebot.github.io/turtlebot4-user-manual/tutorials/generate_map.html
+### Koneksi dengan Robot
 
-### 2. Koneksi Robot
-Pastikan laptop/PC dan TurtleBot4 berada pada jaringan yang sama.
+Pastikan komputer development dan TurtleBot4 berada dalam satu network yang sama.
 
-SSH ke robot:
-
+**Akses robot melalui SSH:**
+```bash
 ssh ubuntu@192.168.185.3
-
+```
 
 ---
 
-## Menjalankan Sistem
+## 🚀 Panduan Eksekusi Sistem
 
-### Localization
-Pada terminal TurtleBot4:
+### Langkah 1: Menjalankan Localization
 
+Pada **terminal di TurtleBot4**, eksekusi perintah berikut:
+```bash
 ros2 launch turtlebot4_navigation localization.launch.py map:=path/ke/map.yaml
+```
 
+Ganti `path/ke/map.yaml` dengan lokasi file peta Anda.
 
-### Navigation (Nav2)
+### Langkah 2: Mengaktifkan Navigation Stack
 
-Terminal kedua:
-
+Buka **terminal baru** di robot, kemudian jalankan:
+```bash
 ros2 launch turtlebot4_navigation nav2.launch.py
+```
 
+### Langkah 3: Membuka RViz untuk Visualisasi
 
-### Menampilkan RViz
-
-Pada laptop/PC:
-
+Pada **komputer/laptop development**, jalankan:
+```bash
 ros2 launch turtlebot4_viz view_navigation.launch.py
+```
 
-Pastikan posisi robot di RViz sesuai posisi fisik di lapangan.
-
+> **Penting:** Pastikan pose robot di RViz match dengan posisi aktual robot di lapangan. Gunakan tool "2D Pose Estimate" jika diperlukan penyesuaian.
 
 ---
 
-## Build Workspace
-### Membuat workspace
+## 📦 Instalasi Package
+
+### Membuat ROS2 Workspace
+```bash
 mkdir -p ros2_ws/src
 cd ros2_ws/src
+```
 
-
-### Clone repository
+### Download Repository
+```bash
 git clone https://github.com/AbdiWijaya02/UTS-RE702---Turtlebot4.git
+```
 
+### Kompilasi Package
 
-### Build Workspace
+Kembali ke root workspace dan build:
+```bash
 cd ../
 colcon build
+```
+
+### Source Environment
+```bash
 source install/setup.bash
+```
 
+> **Tips:** Tambahkan perintah source ke `~/.bashrc` agar otomatis dijalankan setiap terminal baru:
+> ```bash
+> echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
+> ```
 
 ---
 
-## Menjalankan Node Utama
+## ▶️ Menjalankan Aplikasi
+
+Setelah semua setup selesai, eksekusi node utama dengan perintah:
+```bash
 ros2 run abdi_pkg abdinode
+```
+
+Node ini akan mengendalikan pergerakan robot menuju titik tujuan yang telah ditentukan.
 
 ---
 
-## Demo
-*(Tambahkan link video demo di sini)*
+## 🎬 Video Demo
+
+*(Tambahkan URL video demonstrasi proyek di sini)*
+
+**Contoh:**
+- Link YouTube: `https://youtu.be/b6Jc3NDo4qI?si=Upo1l2yUh0Ste9Kz`
+
+---
+
+## 📚 Referensi
+
+- [TurtleBot4 Official Documentation](https://turtlebot.github.io/turtlebot4-user-manual/)
+- [ROS2 Navigation Stack (Nav2)](https://navigation.ros.org/)
+- [AMCL Localization Package](https://navigation.ros.org/configuration/packages/configuring-amcl.html)
+
+---
