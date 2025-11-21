@@ -1,0 +1,68 @@
+[0.086s] Invoking command in '/home/ubuntu/abdi/build/abdi_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/abdi/build/abdi_pkg -- -j4 -l4
+[0.322s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.829s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.049s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.107s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.178s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.264s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.623s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.632s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.041s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.378s] -- Found rclcpp_action: 28.1.11 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[3.586s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[3.773s] -- Found nav2_msgs: 1.3.7 (/opt/ros/jazzy/share/nav2_msgs/cmake)
+[4.272s] -- Found irobot_create_msgs: 3.0.0 (/opt/ros/jazzy/share/irobot_create_msgs/cmake)
+[4.423s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.053s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.054s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ubuntu/abdi/src/abdi_pkg/include>
+[5.055s] -- Configured cppcheck exclude dirs and/or files: 
+[5.061s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.061s] -- Configured 'flake8' exclude dirs and/or files: 
+[5.063s] -- Added test 'lint_cmake' to check CMake code style
+[5.067s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.085s] -- Added test 'uncrustify' to check C / C++ code style
+[5.086s] -- Configured uncrustify additional arguments: 
+[5.092s] -- Added test 'xmllint' to check XML markup files
+[5.097s] -- Configuring done (4.8s)
+[5.223s] -- Generating done (0.1s)
+[5.253s] -- Build files have been written to: /home/ubuntu/abdi/build/abdi_pkg
+[5.401s] gmake[2]: Warning: File 'CMakeFiles/abdinode.dir/flags.make' has modification time 8451 s in the future
+[5.512s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[5.534s] gmake[2]: Warning: File 'CMakeFiles/abdinode.dir/flags.make' has modification time 8451 s in the future
+[5.653s] [ 50%] [32mBuilding CXX object CMakeFiles/abdinode.dir/src/abdinode.cpp.o[0m
+[44.626s] [100%] [32m[1mLinking CXX executable abdinode[0m
+[47.179s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[47.283s] [100%] Built target abdinode
+[47.409s] Invoked command in '/home/ubuntu/abdi/build/abdi_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/abdi/build/abdi_pkg -- -j4 -l4
+[47.511s] Invoking command in '/home/ubuntu/abdi/build/abdi_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/abdi/build/abdi_pkg
+[47.587s] -- Install configuration: ""
+[47.591s] -- Installing: /home/ubuntu/abdi/install/abdi_pkg/lib/abdi_pkg/abdinode
+[47.611s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/abdi/install/abdi_pkg/lib/abdi_pkg/abdinode" to ""
+[47.612s] -- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/launch
+[47.614s] -- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/launch/navigation.launch.py
+[47.616s] -- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/launch/localization.launch.py
+[47.618s] -- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/launch/uts_nav.launch.py
+[47.619s] -- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/config
+[47.621s] -- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/config/nav2_params.yaml
+[47.624s] -- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/config/localization.yaml
+[47.626s] -- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/maps
+[47.626s] -- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/maps/abdi.pgm
+[47.627s] -- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/maps/abdi.yaml
+[47.628s] -- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/maps/RichardUTS.pgm
+[47.629s] -- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/maps/RichardUTS.yaml
+[47.631s] -- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/ament_index/resource_index/package_run_dependencies/abdi_pkg
+[47.632s] -- Installing: /home/ubuntu/abdi/install/abdi_pkg/share/ament_index/resource_index/parent_prefix_path/abdi_pkg
+[47.634s] -- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/environment/ament_prefix_path.sh
+[47.635s] -- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/environment/ament_prefix_path.dsv
+[47.636s] -- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/environment/path.sh
+[47.638s] -- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/environment/path.dsv
+[47.639s] -- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/local_setup.bash
+[47.640s] -- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/local_setup.sh
+[47.642s] -- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/local_setup.zsh
+[47.643s] -- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/local_setup.dsv
+[47.645s] -- Installing: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/package.dsv
+[47.645s] -- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/ament_index/resource_index/packages/abdi_pkg
+[47.646s] -- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/cmake/abdi_pkgConfig.cmake
+[47.647s] -- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/cmake/abdi_pkgConfig-version.cmake
+[47.648s] -- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/package.xml
+[47.655s] Invoked command in '/home/ubuntu/abdi/build/abdi_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/abdi/build/abdi_pkg

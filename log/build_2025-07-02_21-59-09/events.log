@@ -1,0 +1,542 @@
+[0.000000] (-) TimerEvent: {}
+[0.003062] (abdi_pkg) JobQueued: {'identifier': 'abdi_pkg', 'dependencies': OrderedDict()}
+[0.003389] (abdi_pkg) JobStarted: {'identifier': 'abdi_pkg'}
+[0.071501] (abdi_pkg) JobProgress: {'identifier': 'abdi_pkg', 'progress': 'cmake'}
+[0.072710] (abdi_pkg) JobProgress: {'identifier': 'abdi_pkg', 'progress': 'build'}
+[0.075460] (abdi_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/abdi/build/abdi_pkg', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/abdi/build/abdi_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKSPACE_SETUP': '/opt/ros/jazzy/setup.bash', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.185.5 47724 22', 'LC_TIME': 'id_ID.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'CYCLONEDDS_URI': '/etc/turtlebot4/cyclonedds_rpi.xml', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/5', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'id_ID.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/abdi/install', 'ROBOT_SETUP': '/etc/turtlebot4/setup.bash', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'ROS_SUPER_CLIENT': 'False', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '12', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/etc/turtlebot4/fastdds_rpi.xml', 'TURTLEBOT4_DIAGNOSTICS': '1', 'LC_ADDRESS': 'id_ID.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'id_ID.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/ubuntu/abdi/install/abdi_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'id_ID.UTF-8', 'ROS_DISCOVERY_SERVER': '', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'ROBOT_NAMESPACE': '', 'PWD': '/home/ubuntu/abdi/build/abdi_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.185.5 47724 192.168.185.3 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/abdi/install/abdi_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.100019] (-) TimerEvent: {}
+[0.201568] (-) TimerEvent: {}
+[0.302361] (-) TimerEvent: {}
+[0.324525] (abdi_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.402741] (-) TimerEvent: {}
+[0.505479] (-) TimerEvent: {}
+[0.606449] (-) TimerEvent: {}
+[0.708964] (-) TimerEvent: {}
+[0.810187] (-) TimerEvent: {}
+[0.912639] (-) TimerEvent: {}
+[1.013377] (-) TimerEvent: {}
+[1.114807] (-) TimerEvent: {}
+[1.216267] (-) TimerEvent: {}
+[1.322993] (-) TimerEvent: {}
+[1.426363] (-) TimerEvent: {}
+[1.529603] (-) TimerEvent: {}
+[1.632760] (-) TimerEvent: {}
+[1.736455] (-) TimerEvent: {}
+[1.823707] (abdi_pkg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.836613] (-) TimerEvent: {}
+[1.938460] (-) TimerEvent: {}
+[2.039074] (-) TimerEvent: {}
+[2.051561] (abdi_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.109389] (abdi_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.139422] (-) TimerEvent: {}
+[2.181064] (abdi_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.239600] (-) TimerEvent: {}
+[2.266607] (abdi_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.339781] (-) TimerEvent: {}
+[2.440957] (-) TimerEvent: {}
+[2.546567] (-) TimerEvent: {}
+[2.624813] (abdi_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.635017] (abdi_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.647025] (-) TimerEvent: {}
+[2.748913] (-) TimerEvent: {}
+[2.849993] (-) TimerEvent: {}
+[2.951032] (-) TimerEvent: {}
+[3.044339] (abdi_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.052424] (-) TimerEvent: {}
+[3.153830] (-) TimerEvent: {}
+[3.254640] (-) TimerEvent: {}
+[3.355353] (-) TimerEvent: {}
+[3.380541] (abdi_pkg) StdoutLine: {'line': b'-- Found rclcpp_action: 28.1.11 (/opt/ros/jazzy/share/rclcpp_action/cmake)\n'}
+[3.455494] (-) TimerEvent: {}
+[3.556164] (-) TimerEvent: {}
+[3.589404] (abdi_pkg) StdoutLine: {'line': b'-- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[3.656404] (-) TimerEvent: {}
+[3.757257] (-) TimerEvent: {}
+[3.775757] (abdi_pkg) StdoutLine: {'line': b'-- Found nav2_msgs: 1.3.7 (/opt/ros/jazzy/share/nav2_msgs/cmake)\n'}
+[3.857457] (-) TimerEvent: {}
+[3.958655] (-) TimerEvent: {}
+[4.059611] (-) TimerEvent: {}
+[4.163037] (-) TimerEvent: {}
+[4.264382] (-) TimerEvent: {}
+[4.273248] (abdi_pkg) StdoutLine: {'line': b'-- Found irobot_create_msgs: 3.0.0 (/opt/ros/jazzy/share/irobot_create_msgs/cmake)\n'}
+[4.364681] (-) TimerEvent: {}
+[4.421998] (abdi_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[4.464870] (-) TimerEvent: {}
+[4.565771] (-) TimerEvent: {}
+[4.666419] (-) TimerEvent: {}
+[4.767129] (-) TimerEvent: {}
+[4.868418] (-) TimerEvent: {}
+[4.969478] (-) TimerEvent: {}
+[5.056132] (abdi_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.057507] (abdi_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ubuntu/abdi/src/abdi_pkg/include>\n'}
+[5.058390] (abdi_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.063865] (abdi_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.064529] (abdi_pkg) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[5.066251] (abdi_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.069647] (-) TimerEvent: {}
+[5.070357] (abdi_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[5.088102] (abdi_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.089063] (abdi_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.094943] (abdi_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.099507] (abdi_pkg) StdoutLine: {'line': b'-- Configuring done (4.8s)\n'}
+[5.171971] (-) TimerEvent: {}
+[5.225374] (abdi_pkg) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[5.256112] (abdi_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/abdi/build/abdi_pkg\n'}
+[5.272670] (-) TimerEvent: {}
+[5.375479] (-) TimerEvent: {}
+[5.403442] (abdi_pkg) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/abdinode.dir/flags.make' has modification time 8451 s in the future\n"}
+[5.476629] (-) TimerEvent: {}
+[5.513953] (abdi_pkg) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[5.536456] (abdi_pkg) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/abdinode.dir/flags.make' has modification time 8451 s in the future\n"}
+[5.578240] (-) TimerEvent: {}
+[5.656197] (abdi_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/abdinode.dir/src/abdinode.cpp.o\x1b[0m\n'}
+[5.678487] (-) TimerEvent: {}
+[5.779423] (-) TimerEvent: {}
+[5.880688] (-) TimerEvent: {}
+[5.982035] (-) TimerEvent: {}
+[6.082758] (-) TimerEvent: {}
+[6.183742] (-) TimerEvent: {}
+[6.284399] (-) TimerEvent: {}
+[6.385752] (-) TimerEvent: {}
+[6.486363] (-) TimerEvent: {}
+[6.588365] (-) TimerEvent: {}
+[6.689262] (-) TimerEvent: {}
+[6.790097] (-) TimerEvent: {}
+[6.891149] (-) TimerEvent: {}
+[7.003533] (-) TimerEvent: {}
+[7.108107] (-) TimerEvent: {}
+[7.209277] (-) TimerEvent: {}
+[7.310628] (-) TimerEvent: {}
+[7.414455] (-) TimerEvent: {}
+[7.515525] (-) TimerEvent: {}
+[7.618675] (-) TimerEvent: {}
+[7.719465] (-) TimerEvent: {}
+[7.820408] (-) TimerEvent: {}
+[7.922919] (-) TimerEvent: {}
+[8.024099] (-) TimerEvent: {}
+[8.126028] (-) TimerEvent: {}
+[8.230425] (-) TimerEvent: {}
+[8.332416] (-) TimerEvent: {}
+[8.434733] (-) TimerEvent: {}
+[8.537251] (-) TimerEvent: {}
+[8.638640] (-) TimerEvent: {}
+[8.741197] (-) TimerEvent: {}
+[8.842603] (-) TimerEvent: {}
+[8.947478] (-) TimerEvent: {}
+[9.049014] (-) TimerEvent: {}
+[9.152515] (-) TimerEvent: {}
+[9.253913] (-) TimerEvent: {}
+[9.354775] (-) TimerEvent: {}
+[9.456001] (-) TimerEvent: {}
+[9.557034] (-) TimerEvent: {}
+[9.657917] (-) TimerEvent: {}
+[9.761826] (-) TimerEvent: {}
+[9.863910] (-) TimerEvent: {}
+[9.965455] (-) TimerEvent: {}
+[10.066633] (-) TimerEvent: {}
+[10.167860] (-) TimerEvent: {}
+[10.268698] (-) TimerEvent: {}
+[10.379287] (-) TimerEvent: {}
+[10.482140] (-) TimerEvent: {}
+[10.584964] (-) TimerEvent: {}
+[10.685876] (-) TimerEvent: {}
+[10.786611] (-) TimerEvent: {}
+[10.887821] (-) TimerEvent: {}
+[10.992030] (-) TimerEvent: {}
+[11.092869] (-) TimerEvent: {}
+[11.194278] (-) TimerEvent: {}
+[11.295797] (-) TimerEvent: {}
+[11.399159] (-) TimerEvent: {}
+[11.501490] (-) TimerEvent: {}
+[11.605203] (-) TimerEvent: {}
+[11.710471] (-) TimerEvent: {}
+[11.812204] (-) TimerEvent: {}
+[11.916283] (-) TimerEvent: {}
+[12.027956] (-) TimerEvent: {}
+[12.133159] (-) TimerEvent: {}
+[12.233843] (-) TimerEvent: {}
+[12.334536] (-) TimerEvent: {}
+[12.435691] (-) TimerEvent: {}
+[12.536449] (-) TimerEvent: {}
+[12.638071] (-) TimerEvent: {}
+[12.739104] (-) TimerEvent: {}
+[12.840073] (-) TimerEvent: {}
+[12.942904] (-) TimerEvent: {}
+[13.046970] (-) TimerEvent: {}
+[13.152892] (-) TimerEvent: {}
+[13.253833] (-) TimerEvent: {}
+[13.354579] (-) TimerEvent: {}
+[13.455349] (-) TimerEvent: {}
+[13.556011] (-) TimerEvent: {}
+[13.656849] (-) TimerEvent: {}
+[13.761908] (-) TimerEvent: {}
+[13.866392] (-) TimerEvent: {}
+[13.967261] (-) TimerEvent: {}
+[14.068018] (-) TimerEvent: {}
+[14.168719] (-) TimerEvent: {}
+[14.269734] (-) TimerEvent: {}
+[14.372473] (-) TimerEvent: {}
+[14.478480] (-) TimerEvent: {}
+[14.579967] (-) TimerEvent: {}
+[14.681825] (-) TimerEvent: {}
+[14.782705] (-) TimerEvent: {}
+[14.883547] (-) TimerEvent: {}
+[14.984519] (-) TimerEvent: {}
+[15.085446] (-) TimerEvent: {}
+[15.188055] (-) TimerEvent: {}
+[15.289625] (-) TimerEvent: {}
+[15.390492] (-) TimerEvent: {}
+[15.492463] (-) TimerEvent: {}
+[15.599509] (-) TimerEvent: {}
+[15.700759] (-) TimerEvent: {}
+[15.802470] (-) TimerEvent: {}
+[15.903259] (-) TimerEvent: {}
+[16.004121] (-) TimerEvent: {}
+[16.108530] (-) TimerEvent: {}
+[16.210283] (-) TimerEvent: {}
+[16.312422] (-) TimerEvent: {}
+[16.413424] (-) TimerEvent: {}
+[16.515880] (-) TimerEvent: {}
+[16.618532] (-) TimerEvent: {}
+[16.726448] (-) TimerEvent: {}
+[16.832495] (-) TimerEvent: {}
+[16.935732] (-) TimerEvent: {}
+[17.036938] (-) TimerEvent: {}
+[17.148872] (-) TimerEvent: {}
+[17.252610] (-) TimerEvent: {}
+[17.353689] (-) TimerEvent: {}
+[17.454368] (-) TimerEvent: {}
+[17.555460] (-) TimerEvent: {}
+[17.656637] (-) TimerEvent: {}
+[17.758148] (-) TimerEvent: {}
+[17.865912] (-) TimerEvent: {}
+[17.968494] (-) TimerEvent: {}
+[18.072097] (-) TimerEvent: {}
+[18.176090] (-) TimerEvent: {}
+[18.279276] (-) TimerEvent: {}
+[18.381914] (-) TimerEvent: {}
+[18.482665] (-) TimerEvent: {}
+[18.583584] (-) TimerEvent: {}
+[18.684410] (-) TimerEvent: {}
+[18.785271] (-) TimerEvent: {}
+[18.886008] (-) TimerEvent: {}
+[18.987429] (-) TimerEvent: {}
+[19.088383] (-) TimerEvent: {}
+[19.191549] (-) TimerEvent: {}
+[19.294026] (-) TimerEvent: {}
+[19.395983] (-) TimerEvent: {}
+[19.500043] (-) TimerEvent: {}
+[19.603476] (-) TimerEvent: {}
+[19.704895] (-) TimerEvent: {}
+[19.805854] (-) TimerEvent: {}
+[19.907830] (-) TimerEvent: {}
+[20.009612] (-) TimerEvent: {}
+[20.112495] (-) TimerEvent: {}
+[20.213502] (-) TimerEvent: {}
+[20.315019] (-) TimerEvent: {}
+[20.418358] (-) TimerEvent: {}
+[20.521078] (-) TimerEvent: {}
+[20.624146] (-) TimerEvent: {}
+[20.732001] (-) TimerEvent: {}
+[20.834180] (-) TimerEvent: {}
+[20.934991] (-) TimerEvent: {}
+[21.036748] (-) TimerEvent: {}
+[21.137631] (-) TimerEvent: {}
+[21.239022] (-) TimerEvent: {}
+[21.342266] (-) TimerEvent: {}
+[21.443438] (-) TimerEvent: {}
+[21.544888] (-) TimerEvent: {}
+[21.645750] (-) TimerEvent: {}
+[21.747992] (-) TimerEvent: {}
+[21.849293] (-) TimerEvent: {}
+[21.951558] (-) TimerEvent: {}
+[22.052215] (-) TimerEvent: {}
+[22.153357] (-) TimerEvent: {}
+[22.254595] (-) TimerEvent: {}
+[22.358664] (-) TimerEvent: {}
+[22.463233] (-) TimerEvent: {}
+[22.565977] (-) TimerEvent: {}
+[22.666749] (-) TimerEvent: {}
+[22.767856] (-) TimerEvent: {}
+[22.869053] (-) TimerEvent: {}
+[22.972538] (-) TimerEvent: {}
+[23.076271] (-) TimerEvent: {}
+[23.177949] (-) TimerEvent: {}
+[23.281853] (-) TimerEvent: {}
+[23.383492] (-) TimerEvent: {}
+[23.486384] (-) TimerEvent: {}
+[23.587621] (-) TimerEvent: {}
+[23.690593] (-) TimerEvent: {}
+[23.793783] (-) TimerEvent: {}
+[23.895586] (-) TimerEvent: {}
+[23.998938] (-) TimerEvent: {}
+[24.100272] (-) TimerEvent: {}
+[24.201489] (-) TimerEvent: {}
+[24.307493] (-) TimerEvent: {}
+[24.408396] (-) TimerEvent: {}
+[24.509608] (-) TimerEvent: {}
+[24.610764] (-) TimerEvent: {}
+[24.713243] (-) TimerEvent: {}
+[24.814540] (-) TimerEvent: {}
+[24.917028] (-) TimerEvent: {}
+[25.019562] (-) TimerEvent: {}
+[25.121961] (-) TimerEvent: {}
+[25.224775] (-) TimerEvent: {}
+[25.326004] (-) TimerEvent: {}
+[25.432910] (-) TimerEvent: {}
+[25.535222] (-) TimerEvent: {}
+[25.636451] (-) TimerEvent: {}
+[25.737790] (-) TimerEvent: {}
+[25.840485] (-) TimerEvent: {}
+[25.942748] (-) TimerEvent: {}
+[26.047115] (-) TimerEvent: {}
+[26.151681] (-) TimerEvent: {}
+[26.252482] (-) TimerEvent: {}
+[26.354726] (-) TimerEvent: {}
+[26.455856] (-) TimerEvent: {}
+[26.556616] (-) TimerEvent: {}
+[26.658106] (-) TimerEvent: {}
+[26.758974] (-) TimerEvent: {}
+[26.863755] (-) TimerEvent: {}
+[26.965570] (-) TimerEvent: {}
+[27.068631] (-) TimerEvent: {}
+[27.169578] (-) TimerEvent: {}
+[27.271285] (-) TimerEvent: {}
+[27.372787] (-) TimerEvent: {}
+[27.476157] (-) TimerEvent: {}
+[27.580724] (-) TimerEvent: {}
+[27.684056] (-) TimerEvent: {}
+[27.784740] (-) TimerEvent: {}
+[27.886408] (-) TimerEvent: {}
+[27.987229] (-) TimerEvent: {}
+[28.089060] (-) TimerEvent: {}
+[28.193455] (-) TimerEvent: {}
+[28.295192] (-) TimerEvent: {}
+[28.400932] (-) TimerEvent: {}
+[28.505979] (-) TimerEvent: {}
+[28.606849] (-) TimerEvent: {}
+[28.707640] (-) TimerEvent: {}
+[28.809754] (-) TimerEvent: {}
+[28.910758] (-) TimerEvent: {}
+[29.012681] (-) TimerEvent: {}
+[29.114507] (-) TimerEvent: {}
+[29.215922] (-) TimerEvent: {}
+[29.322543] (-) TimerEvent: {}
+[29.429738] (-) TimerEvent: {}
+[29.536823] (-) TimerEvent: {}
+[29.641345] (-) TimerEvent: {}
+[29.751553] (-) TimerEvent: {}
+[29.854638] (-) TimerEvent: {}
+[29.955432] (-) TimerEvent: {}
+[30.057369] (-) TimerEvent: {}
+[30.159518] (-) TimerEvent: {}
+[30.265714] (-) TimerEvent: {}
+[30.366467] (-) TimerEvent: {}
+[30.467342] (-) TimerEvent: {}
+[30.568143] (-) TimerEvent: {}
+[30.668959] (-) TimerEvent: {}
+[30.771176] (-) TimerEvent: {}
+[30.873863] (-) TimerEvent: {}
+[30.975069] (-) TimerEvent: {}
+[31.077020] (-) TimerEvent: {}
+[31.181278] (-) TimerEvent: {}
+[31.282415] (-) TimerEvent: {}
+[31.383589] (-) TimerEvent: {}
+[31.490713] (-) TimerEvent: {}
+[31.593228] (-) TimerEvent: {}
+[31.694514] (-) TimerEvent: {}
+[31.798800] (-) TimerEvent: {}
+[31.901065] (-) TimerEvent: {}
+[32.008098] (-) TimerEvent: {}
+[32.113743] (-) TimerEvent: {}
+[32.215508] (-) TimerEvent: {}
+[32.317390] (-) TimerEvent: {}
+[32.420053] (-) TimerEvent: {}
+[32.523965] (-) TimerEvent: {}
+[32.625472] (-) TimerEvent: {}
+[32.731145] (-) TimerEvent: {}
+[32.835774] (-) TimerEvent: {}
+[32.936502] (-) TimerEvent: {}
+[33.038517] (-) TimerEvent: {}
+[33.140791] (-) TimerEvent: {}
+[33.247123] (-) TimerEvent: {}
+[33.348737] (-) TimerEvent: {}
+[33.450220] (-) TimerEvent: {}
+[33.553548] (-) TimerEvent: {}
+[33.655101] (-) TimerEvent: {}
+[33.756370] (-) TimerEvent: {}
+[33.857939] (-) TimerEvent: {}
+[33.960233] (-) TimerEvent: {}
+[34.062541] (-) TimerEvent: {}
+[34.170571] (-) TimerEvent: {}
+[34.273092] (-) TimerEvent: {}
+[34.377546] (-) TimerEvent: {}
+[34.479876] (-) TimerEvent: {}
+[34.582110] (-) TimerEvent: {}
+[34.684152] (-) TimerEvent: {}
+[34.785092] (-) TimerEvent: {}
+[34.886045] (-) TimerEvent: {}
+[34.990240] (-) TimerEvent: {}
+[35.093253] (-) TimerEvent: {}
+[35.194351] (-) TimerEvent: {}
+[35.298490] (-) TimerEvent: {}
+[35.402723] (-) TimerEvent: {}
+[35.507543] (-) TimerEvent: {}
+[35.611418] (-) TimerEvent: {}
+[35.716764] (-) TimerEvent: {}
+[35.820590] (-) TimerEvent: {}
+[35.925189] (-) TimerEvent: {}
+[36.030054] (-) TimerEvent: {}
+[36.132994] (-) TimerEvent: {}
+[36.235282] (-) TimerEvent: {}
+[36.338218] (-) TimerEvent: {}
+[36.439291] (-) TimerEvent: {}
+[36.541525] (-) TimerEvent: {}
+[36.642486] (-) TimerEvent: {}
+[36.745920] (-) TimerEvent: {}
+[36.847492] (-) TimerEvent: {}
+[36.950549] (-) TimerEvent: {}
+[37.053753] (-) TimerEvent: {}
+[37.155615] (-) TimerEvent: {}
+[37.256831] (-) TimerEvent: {}
+[37.358024] (-) TimerEvent: {}
+[37.462882] (-) TimerEvent: {}
+[37.563680] (-) TimerEvent: {}
+[37.664468] (-) TimerEvent: {}
+[37.765819] (-) TimerEvent: {}
+[37.866476] (-) TimerEvent: {}
+[37.968842] (-) TimerEvent: {}
+[38.069624] (-) TimerEvent: {}
+[38.172129] (-) TimerEvent: {}
+[38.276610] (-) TimerEvent: {}
+[38.381000] (-) TimerEvent: {}
+[38.487079] (-) TimerEvent: {}
+[38.590108] (-) TimerEvent: {}
+[38.696175] (-) TimerEvent: {}
+[38.807794] (-) TimerEvent: {}
+[38.912538] (-) TimerEvent: {}
+[39.016757] (-) TimerEvent: {}
+[39.128990] (-) TimerEvent: {}
+[39.230609] (-) TimerEvent: {}
+[39.332092] (-) TimerEvent: {}
+[39.435394] (-) TimerEvent: {}
+[39.537954] (-) TimerEvent: {}
+[39.642472] (-) TimerEvent: {}
+[39.745284] (-) TimerEvent: {}
+[39.846506] (-) TimerEvent: {}
+[39.949558] (-) TimerEvent: {}
+[40.052969] (-) TimerEvent: {}
+[40.154860] (-) TimerEvent: {}
+[40.255674] (-) TimerEvent: {}
+[40.356350] (-) TimerEvent: {}
+[40.457194] (-) TimerEvent: {}
+[40.558852] (-) TimerEvent: {}
+[40.662020] (-) TimerEvent: {}
+[40.767913] (-) TimerEvent: {}
+[40.868915] (-) TimerEvent: {}
+[40.970964] (-) TimerEvent: {}
+[41.076476] (-) TimerEvent: {}
+[41.179645] (-) TimerEvent: {}
+[41.285444] (-) TimerEvent: {}
+[41.386163] (-) TimerEvent: {}
+[41.488758] (-) TimerEvent: {}
+[41.591807] (-) TimerEvent: {}
+[41.696031] (-) TimerEvent: {}
+[41.800737] (-) TimerEvent: {}
+[41.902913] (-) TimerEvent: {}
+[42.005912] (-) TimerEvent: {}
+[42.108087] (-) TimerEvent: {}
+[42.211149] (-) TimerEvent: {}
+[42.313253] (-) TimerEvent: {}
+[42.414623] (-) TimerEvent: {}
+[42.515660] (-) TimerEvent: {}
+[42.623531] (-) TimerEvent: {}
+[42.726191] (-) TimerEvent: {}
+[42.827281] (-) TimerEvent: {}
+[42.931515] (-) TimerEvent: {}
+[43.032510] (-) TimerEvent: {}
+[43.135339] (-) TimerEvent: {}
+[43.237681] (-) TimerEvent: {}
+[43.339445] (-) TimerEvent: {}
+[43.440525] (-) TimerEvent: {}
+[43.543814] (-) TimerEvent: {}
+[43.645568] (-) TimerEvent: {}
+[43.746401] (-) TimerEvent: {}
+[43.848126] (-) TimerEvent: {}
+[43.951328] (-) TimerEvent: {}
+[44.052905] (-) TimerEvent: {}
+[44.155782] (-) TimerEvent: {}
+[44.259777] (-) TimerEvent: {}
+[44.361268] (-) TimerEvent: {}
+[44.463987] (-) TimerEvent: {}
+[44.570577] (-) TimerEvent: {}
+[44.628075] (abdi_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable abdinode\x1b[0m\n'}
+[44.671103] (-) TimerEvent: {}
+[44.775513] (-) TimerEvent: {}
+[44.876500] (-) TimerEvent: {}
+[44.981641] (-) TimerEvent: {}
+[45.082477] (-) TimerEvent: {}
+[45.183215] (-) TimerEvent: {}
+[45.287379] (-) TimerEvent: {}
+[45.390530] (-) TimerEvent: {}
+[45.494686] (-) TimerEvent: {}
+[45.599559] (-) TimerEvent: {}
+[45.705923] (-) TimerEvent: {}
+[45.814528] (-) TimerEvent: {}
+[45.917543] (-) TimerEvent: {}
+[46.018469] (-) TimerEvent: {}
+[46.120871] (-) TimerEvent: {}
+[46.223289] (-) TimerEvent: {}
+[46.330925] (-) TimerEvent: {}
+[46.432047] (-) TimerEvent: {}
+[46.535099] (-) TimerEvent: {}
+[46.640224] (-) TimerEvent: {}
+[46.749478] (-) TimerEvent: {}
+[46.852360] (-) TimerEvent: {}
+[46.956921] (-) TimerEvent: {}
+[47.065466] (-) TimerEvent: {}
+[47.168627] (-) TimerEvent: {}
+[47.180866] (abdi_pkg) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[47.270081] (-) TimerEvent: {}
+[47.285818] (abdi_pkg) StdoutLine: {'line': b'[100%] Built target abdinode\n'}
+[47.373493] (-) TimerEvent: {}
+[47.406974] (abdi_pkg) CommandEnded: {'returncode': 0}
+[47.415705] (abdi_pkg) JobProgress: {'identifier': 'abdi_pkg', 'progress': 'install'}
+[47.475449] (-) TimerEvent: {}
+[47.513735] (abdi_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/abdi/build/abdi_pkg'], 'cwd': '/home/ubuntu/abdi/build/abdi_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKSPACE_SETUP': '/opt/ros/jazzy/setup.bash', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.185.5 47724 22', 'LC_TIME': 'id_ID.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'CYCLONEDDS_URI': '/etc/turtlebot4/cyclonedds_rpi.xml', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/5', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'id_ID.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/abdi/install', 'ROBOT_SETUP': '/etc/turtlebot4/setup.bash', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ubuntu', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'ROS_SUPER_CLIENT': 'False', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '12', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/etc/turtlebot4/fastdds_rpi.xml', 'TURTLEBOT4_DIAGNOSTICS': '1', 'LC_ADDRESS': 'id_ID.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'id_ID.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/ubuntu/abdi/install/abdi_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'id_ID.UTF-8', 'ROS_DISCOVERY_SERVER': '', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'ROBOT_NAMESPACE': '', 'PWD': '/home/ubuntu/abdi/build/abdi_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.185.5 47724 192.168.185.3 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/abdi/install/abdi_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[47.575629] (-) TimerEvent: {}
+[47.589448] (abdi_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[47.593615] (abdi_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/abdi/install/abdi_pkg/lib/abdi_pkg/abdinode\n'}
+[47.613636] (abdi_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/abdi/install/abdi_pkg/lib/abdi_pkg/abdinode" to ""\n'}
+[47.615327] (abdi_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/launch\n'}
+[47.617075] (abdi_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/launch/navigation.launch.py\n'}
+[47.618606] (abdi_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/launch/localization.launch.py\n'}
+[47.620274] (abdi_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/launch/uts_nav.launch.py\n'}
+[47.622087] (abdi_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/config\n'}
+[47.623905] (abdi_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/config/nav2_params.yaml\n'}
+[47.625717] (abdi_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/config/localization.yaml\n'}
+[47.627963] (abdi_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/maps\n'}
+[47.629226] (abdi_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/maps/abdi.pgm\n'}
+[47.630091] (abdi_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/maps/abdi.yaml\n'}
+[47.630958] (abdi_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/maps/RichardUTS.pgm\n'}
+[47.631973] (abdi_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/maps/RichardUTS.yaml\n'}
+[47.633120] (abdi_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/ament_index/resource_index/package_run_dependencies/abdi_pkg\n'}
+[47.634799] (abdi_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/abdi/install/abdi_pkg/share/ament_index/resource_index/parent_prefix_path/abdi_pkg\n'}
+[47.635925] (abdi_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/environment/ament_prefix_path.sh\n'}
+[47.637458] (abdi_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/environment/ament_prefix_path.dsv\n'}
+[47.638786] (abdi_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/environment/path.sh\n'}
+[47.640390] (abdi_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/environment/path.dsv\n'}
+[47.641561] (abdi_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/local_setup.bash\n'}
+[47.643138] (abdi_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/local_setup.sh\n'}
+[47.643982] (abdi_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/local_setup.zsh\n'}
+[47.645203] (abdi_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/local_setup.dsv\n'}
+[47.646385] (abdi_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/package.dsv\n'}
+[47.648261] (abdi_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/ament_index/resource_index/packages/abdi_pkg\n'}
+[47.649158] (abdi_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/cmake/abdi_pkgConfig.cmake\n'}
+[47.650210] (abdi_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/cmake/abdi_pkgConfig-version.cmake\n'}
+[47.651021] (abdi_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/abdi/install/abdi_pkg/share/abdi_pkg/package.xml\n'}
+[47.658052] (abdi_pkg) CommandEnded: {'returncode': 0}
+[47.675947] (-) TimerEvent: {}
+[47.782908] (-) TimerEvent: {}
+[47.810872] (abdi_pkg) JobEnded: {'identifier': 'abdi_pkg', 'rc': 0}
+[47.819627] (-) EventReactorShutdown: {}
